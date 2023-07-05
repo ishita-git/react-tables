@@ -1,0 +1,70 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal{
+    position: relative;
+    top: 20vh;
+    left : 23%;
+    width:40%;
+    height:40%;
+    background-color: white;
+    padding: 1rem;
+    z-index: 2;
+
+}
+
+.form-container{
+    display: flex;
+    width:100%;
+    border-top: 70px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(217, 214, 214);
+  
+    
+}
+.form-style{
+    padding:20px
+}
+
+.label{
+    display: flex;
+    float: left;
+    font-weight: bold;
+    padding: 5px;
+}
+.primary-btn{
+    height:30px;
+    width:80px;
+    color: white;
+    background-color: rgba(96, 105, 227, 0.84);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+}
+.secondary-btn{
+
+    height:30px;
+    width:80px;
+    color: rgba(96, 105, 227, 0.84);
+    background-color: white;
+    border: 2px solid rgba(96, 105, 227, 0.84);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.btn-container{
+    display: flex;
+    float: right;
+}

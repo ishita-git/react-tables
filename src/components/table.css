@@ -17,6 +17,68 @@ table {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: #0468aaba;
+    background-color: #ffff;
+    color: black;
+  }
+
+  .heading-container{
+    display: flex;
+    border-bottom: 5px solid gray;
+    border-width: thin;
+    padding: 10px;
+    align-items: center;
+
+  }
+
+  .heading{
+    font-size: 40px;
+    padding: 10px;
+    float: left;
+   
+  }
+
+  .add-button{
+    height:25px;
     color: white;
+    background-color: rgba(96, 105, 227, 0.84);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    
+  }
+
+  .filter-dropdown{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    padding: 20px;
+    height: 25px;
+  }
+
+  .select-dropdown{
+    width: 100px;
+  
+  }
+
+  .checkbox-filter{
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-filter input[type="checkbox"] {
+    margin-right: 8px;
+  }
+
+  .checkbox-filter label {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .react-select__menu {
+    font-size: 14px;
+  }
+  
+  .react-select__option {
+    padding: 8px;
   }

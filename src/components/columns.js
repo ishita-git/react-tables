@@ -3,42 +3,32 @@ import ColumnFilter from './ColumnFilter';
 
 export const COLUMNS = [
   {
-    Header: "Id",
-    Footer: "Id",
-    accessor: "id",
+    Header: "Name",
+    accessor: "Name",
     disableFilters : true
   },
   {
-    Header: "First Name",
-    Footer: "First Name",
-    accessor: "first_name",
+    Header: "Company",
+    accessor: "Company",
  
   },
   {
-    Header: "Last Name",
-    Footer: "Last Name",
-    accessor: "last_name",
+    Header: "Status",
+    accessor: "Status",
   
   },
   {
-    Header: "Date of Birth",
-    Footer: "Date of Birth",
-    accessor: "date_of_birth",
-    Cell : ({value})=>{return format(new Date(value), 'dd/MM/yyyy')},
+    Header: "Last Updated",
+    accessor: "Last_Updated",
+    Cell : ({value})=>{return format(new Date(value), 'd/m/yyyy')},
    
   },
   {
-    Header: "Country",
-    Footer: "Country",
-    accessor: "country",
+    Header: "Notes",
+    accessor: "Notes",
    
   },
-  {
-    Header: "Phone",
-    Footer: "Phone",
-    accessor: "phone",
-
-  },
+  
 ];
 
 export const GROUPED_COLUMNS = [
